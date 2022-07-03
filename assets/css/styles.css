@@ -1,0 +1,41 @@
+.grid-container{
+    display: grid;
+    align-items: center;
+    grid-template-areas: 
+    "aside section";
+    gap: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+aside{
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: green;
+    max-width: 250px;
+    margin-left: 60%;
+    color: white;
+}
+
+.margin {
+    margin: 3%;
+}
+
+section{
+    grid-area: section;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+#color{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    border-radius:25px;
+}
+
+
